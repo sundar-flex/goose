@@ -1,0 +1,66 @@
+{
+  "name": "flexai",
+  "engine": "openai",
+  "display_name": "FlexAI",
+  "description": "Inference for open-weight models (DeepSeek, GLM, Qwen, MiniMax, Gemma, gpt-oss and more) through FlexAI's OpenAI-compatible API",
+  "api_key_env": "FLEXAI_API_KEY",
+  "base_url": "https://api.flex.ai/v1",
+  "dynamic_models": false,
+  "supports_streaming": true,
+  "model_doc_link": "https://flex.ai/models",
+  "setup_steps": [
+    "Sign up at https://platform.flex.ai and create a workspace",
+    "Create an API key for the workspace",
+    "Paste the key above as FLEXAI_API_KEY"
+  ],
+  "models": [
+    {
+      "name": "DeepSeek-V4.1-Flash-1017",
+      "context_limit": 1048576
+    },
+    {
+      "name": "DeepSeek-V4-Flash-0731",
+      "context_limit": 1048576
+    },
+    {
+      "name": "GLM-5.2",
+      "context_limit": 1048576
+    },
+    {
+      "name": "GLM-5.3-Flash",
+      "context_limit": 1048576
+    },
+    {
+      "name": "MiniMax-M2.7",
+      "context_limit": 204800
+    },
+    {
+      "name": "Qwen3.8-27B",
+      "context_limit": 262144
+    },
+    {
+      "name": "Qwen3.8-Flash-Next",
+      "context_limit": 262144
+    },
+    {
+      "name": "Qwen3-Coder-30B-A3B-Instruct-FP8",
+      "context_limit": 262144
+    },
+    {
+      "name": "gpt-oss-120b",
+      "context_limit": 131072
+    },
+    {
+      "name": "Step-3.7-Flash",
+      "context_limit": 262144
+    },
+    {
+      "name": "gemma-4-31b-it",
+      "context_limit": 262144
+    },
+    {
+      "name": "Llama-3.3-70B-Instruct-FP8",
+      "context_limit": 131072
+    }
+  ]
+}

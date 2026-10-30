@@ -24,6 +24,7 @@ pub(crate) mod declarative_providers {
         empiriolabs,
         eurouter,
         fireworks,
+        flexai,
         friendli,
         futurmix,
         groq,
